@@ -159,4 +159,8 @@ thead{
     height: 4vh;
     font-size: 7px;
     }
+    .modal .main-modal {
+        padding: 5px;
+        width: min-content;
+    }
 }
