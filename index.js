@@ -67,7 +67,7 @@ var allInput = createForm.querySelectorAll("INPUT");
     userData.forEach((data, index)=>{
      tableData.innerHTML += `
      <tr index='${index}'>
-            <td> <input type="checkbox" id="checkbox">  ${index+1} ${data.chemical}</td>
+            <td id="firstTd"> <input type="checkbox" id="checkbox">  <div id="index">${index+1}</div> <div id="dataChemnical">${data.chemical}</div></td>
             <td>${data.vendor}</td>
             <td>${data.density}</td>
             <td>${data.viscosity}</td>

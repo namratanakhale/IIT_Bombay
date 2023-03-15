@@ -5,27 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
-    <title>Document</title>
+    <link rel="shortcut icon" href="./public/images/chemistry.png" type="image/x-icon">
+    <title>Chemical Supplies</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <div class="container">
     <div class="heading">
-    <h1>Chemical Supplies</h1>
+    <h2>Chemical Supplies</h2>
     <div>
-    <i id="add-row-btn" class="fa-solid fa-circle-plus"></i>
-    <i id="down" class="fa-solid fa-down-long" onclick="upNdown('down');"></i>
-    <i class="fa-solid fa-up-long" onclick="upNdown('up');"></i>
-    <i id="delete" class="fa-solid fa-trash"></i>
-    <i id="refresh" class="fa-solid fa-arrow-rotate-right"></i>
-    <i id="save" class="fa-solid fa-floppy-disk"></i>
+      <img src="./public/images/plus.png" id="add-row-btn" alt="plus">
+      <img src="./public/images/down-arrow.png" onclick="upNdown('down');" alt="down">
+      <img src="./public/images/up-arrow.png" onclick="upNdown('up');" alt="up">
+      <img src="./public/images/delete.png" id="delete" alt="delete">
+      <img src="./public/images/refresh.png" id="refresh" alt="refresh"> 
+      <img src="./public/images/disk.png" id="save" alt="save"> 
     </div>
     </div>
     <table id="chemicals-table" border="1">
         <thead>
           <tr >
-            <th type="string">Chemical name <i class="fa-solid"></i></th>
+            <th type="string">Chemical name<i class="fa-solid"></i></th>
             <th type="string">Vendor <i class="fa-solid"></i></th>
             <th type="number">Density <i class="fa-solid"></i></th>
             <th type="number">Viscosity <i class="fa-solid"></i></th>

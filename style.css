@@ -7,12 +7,11 @@
 #chemicals-table{
     border-collapse: collapse;
     width: 100%;
-    height: 50vh;
     text-align: center;
 }
 
 #chemicals-table th{
-    height: 10vh;
+    height: 5vh;
 }
 
 .heading{
@@ -23,7 +22,8 @@
 }  
 
 .container{
-    padding: 50px 120px;
+    padding: 10px;
+    
 }
 .fa-solid{
    margin-left: 12px;
@@ -115,8 +115,48 @@ tr{
     cursor: pointer;
 }
 
-#checkbox{
+td input{
     display: flex;
 }
 
- 
+#firstTd{
+    display: flex;
+    text-decoration: none;
+}
+#index{
+    margin-left: 7px;
+    
+}
+#dataChemnical{
+    margin-left: 8px;
+    
+}
+img{
+    width: 21px;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+thead{
+    background-color: #f0d4bd;
+}
+.edit-btn{
+    border: none;
+}
+@media screen and (max-width: 600px)
+{
+    .container{
+        font-size: 10px;
+        padding: 27px;
+    }
+
+    .heading{
+        font-size: 7px;
+    }
+
+    
+    #chemicals-table th {
+    height: 4vh;
+    font-size: 7px;
+    }
+}
