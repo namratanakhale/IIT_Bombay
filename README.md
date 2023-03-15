@@ -18,28 +18,28 @@
 
 ⁕ Up and Down Arrow :
 
-  • Select any row up&down arrow used to move row upward and downward direction.
+       • Select any row up&down arrow used to move row upward and downward direction.
 
 ⁕ Delete Functionality :
 
-  • If checkbox is checked then click on delete icon row will be deleted.
+       • If checkbox is checked then click on delete icon row will be deleted.
 
 ⁕ Refresh :
 
-  • Refresh icon used to refresh the webpage.
+       • Refresh icon used to refresh the webpage.
 
 ⁕ Save :
 
-  • If checkbox is checked then click on floppy-disk icon saved item will display on the same page.
+       • If checkbox is checked then click on floppy-disk icon saved item will display on the same page.
 
 ⁕ Sort in ascending and descending Order :
 
-  • Click on table-head column if the row is in descending order it will sort it to ascending order otherwise it 
-    will sort it to descending order.
+       • Click on table-head column if the row is in descending order it will sort it to ascending order otherwise it 
+         will sort it to descending order.
 
 * Features:=>
 
- • Fully responsive website.
+       • Fully responsive website.
 
 
 
