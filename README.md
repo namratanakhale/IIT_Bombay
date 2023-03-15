@@ -4,9 +4,11 @@
 
 ⁕ Create functionality :
 
-  • Used localStorage to store and to retrieve the data.
-  • Modal is used to add data and append it to parentElement.
-  • Create button used to add new data and update button disabled.
+       • Used localStorage to store and to retrieve the data.
+  
+       • Modal is used to add data and append it to parentElement.
+  
+       • Create button used to add new data and update button disabled.
 
 ⁕ Updata Functionality : 
   • Used eye icon from fontawesome to update the created data.
