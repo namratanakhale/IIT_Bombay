@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+    <div class="heading">
+    <h1>Chemical Supplies</h1>
+    <div>
+    <i id="add-row-btn" class="fa-solid fa-circle-plus"></i>
+    <i id="down" class="fa-solid fa-down-long" onclick="upNdown('down');"></i>
+    <i class="fa-solid fa-up-long" onclick="upNdown('up');"></i>
+    <i id="delete" class="fa-solid fa-trash"></i>
+    <i id="refresh" class="fa-solid fa-arrow-rotate-right"></i>
+    <i id="save" class="fa-solid fa-floppy-disk"></i>
+    </div>
+    </div>
+    <table id="chemicals-table" border="1">
+        <thead>
+          <tr >
+            <th type="string">Chemical name <i class="fa-solid"></i></th>
+            <th type="string">Vendor <i class="fa-solid"></i></th>
+            <th type="number">Density <i class="fa-solid"></i></th>
+            <th type="number">Viscosity <i class="fa-solid"></i></th>
+            <th type="string">Packaging <i class="fa-solid"></i></th>
+            <th type="number">Pack size <i class="fa-solid"></i></th>
+            <th type="string">Unit <i class="fa-solid"></i></th>
+            <th type="number">Quantity <i class="fa-solid"></i></th>
+          </tr>
+        </thead>
+        <tbody id="table-row">
+  <!--Dynamically added table data appear here -->
+        </tbody>
+      </table>
+
+      <div class="modal">
+        <i class="fa fa-times-circle close-icon"></i>
+        <div class="main-modal">
+          <form id="create-form">
+  
+            <div class="input-box">
+              <label for="chemical-name">Chemical Name</label>
+              <input type="text" required id="chemical">
+            </div>
+            <div class="input-box">
+              <label for="vendor">Vendor</label>
+              <input type="text" required id="vendor">
+            </div>
+            <div class="input-box">
+              <label for="density">Density</label>
+              <input type="number" required id="density">
+            </div>
+            <div class="input-box">
+              <label for="viscosity">Viscosity</label>
+              <input type="number" required id="viscosity">
+            </div>
+            <div class="input-box">
+              <label for="packaging">Packaging</label>
+              <input type="text" required id="packaging">
+            </div>
+            <div class="input-box">
+              <label for="pack-size">Pack Size</label>
+              <input type="number" required id="pack-size">
+            </div>
+            <div class="input-box">
+              <label for="unit">Unit</label>
+              <input type="text" required id="unit">
+            </div>
+            <div class="input-box">
+              <label for="quantity">Quantity</label>
+              <input type="number" required id="quantity">
+            </div>
+            <div class="input-box">
+              <button id="register-btn">Create</button>
+              <button id="update-btn" disabled="disabled">Update</button>
+            </div>
+          </form>
+        </div>
+        
+      </div>
+
+    </br></br>
+
+    <!-- saved data shows here -->
+      <div class="saveData">
+        <table id="save-table"></table>
+      </div>
+
+     
+</div>
+<script src="./index.js"></script>
+</body>
+</html>
