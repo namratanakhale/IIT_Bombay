@@ -33,7 +33,7 @@ var allInput = createForm.querySelectorAll("INPUT");
 
   // start create coding
   
-  createBtn.onclick = function(e){
+  createBtn.onsubmit = function(e){
     e.preventDefault();
     createData();
     getDataFromLocal();
